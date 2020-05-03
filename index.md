@@ -1,4 +1,4 @@
---—
+---
 title: "Adrien Joly — Musician"
 ---
 
