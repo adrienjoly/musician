@@ -7,7 +7,7 @@ title: "Adrien Joly — Musician"
 <!-- listed from _data/tracks.yaml -->
 
 {% for track in site.data.tracks %}
-- {{ track.name }} ({{ track.contributions }})
+- {{ track.name }} ({{ track.contributions | join: “, “ }})
 {% endfor %}
 
 {% comment %}
