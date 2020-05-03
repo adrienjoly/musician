@@ -4,6 +4,6 @@
 
 <!— listed from _data/tracks.yaml —>
 
-{% for track in tracks %}
+{% for track in site.data.tracks %}
 - {{ track.name }} ()
 {% endfor %>
